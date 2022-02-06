@@ -8,15 +8,15 @@ spring.main.allow-circular-references: true
 spring:
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/postgres
-    username: postgres
-    password: 123456
+    url: postgres://yljofuxbnsocqu:1b3d01f9f0cc234a729dd6604081cfa764abded22c0d98bc5209512185e88acc@ec2-54-173-31-84.compute-1.amazonaws.com:5432/dcdlem66c2q5ln
+    username: yljofuxbnsocqu
+    password: 1b3d01f9f0cc234a729dd6604081cfa764abded22c0d98bc5209512185e88acc
 
   jpa:
     #open-in-view: true
     show-sql: true
     database-platform: org.hibernate.dialect.PostgreSQLDialect
-    generate-ddl: false
+    generate-ddl: true
     hibernate:
       ddl-auto: none
 
